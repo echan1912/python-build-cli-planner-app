@@ -6,5 +6,4 @@ class PrefixedReminder:
         self.prefix = prefix
         self.text = prefix + '<placeholder_text>'
 
-class PoliteReminder:
-    
+
