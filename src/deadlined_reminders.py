@@ -1,4 +1,4 @@
-from abc import ABCMeta, abstractmethod
+from abc import ABCMeta, abstractmethod, ABC
 from collections.abc import Iterable
 
 class DeadlinedMetaReminder(Iterable, metaclass=ABCMeta):
